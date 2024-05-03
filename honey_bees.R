@@ -6,7 +6,6 @@ library(ggtext)
 library(readxl)
 library(tidyverse)
 
-df <- read_excel("data/Stressors-on-Bee-Colonies-in-USA-2.xlsx")
 
 # check that the bee data directory exists
 if (!dir.exists("bee_data")) {
